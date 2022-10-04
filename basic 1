@@ -1,0 +1,198 @@
+  #first_name = "Vincent"
+#last_name = "Zhong"
+#full_name =  first_name + " " + last_name
+#print("Hello "+ full_name)
+
+#age = 21
+#age += 1
+# or age = age + 1
+#print("My age is"+ " " + str(age))
+#print(type(age)) 
+#a="cm"
+#height = 266.934
+#print("Your height is" + " " +str(height) + a)
+#print(type(height))
+
+#human = True   
+#print("Are you a human?" +" "+ str(human))
+#print(type(human))
+
+#name = "GanYaoYu"
+#age = 14
+#attractive = True 
+
+#name, age, attractive = "Bro", 21, True
+
+#print(name)
+#print(age)
+#print(attractive)
+
+#Dad = 30
+#mom = 30 
+#me = 30
+#brother = 30
+
+#dad = mom = me = brother = 30
+
+#dprint(Dad)
+#print(mom) 
+#print(me)
+#print(brother)
+
+#A = "vincent"
+
+#print(len(A))
+#print(A.find("V"))
+#print(A.capitalize())
+
+#x = 1
+#y = 2.0 
+#z = "3"
+
+#x = float(x)
+#y = float(y)
+#z = float(z)
+
+#print(x)
+#print(y)
+#print(z*3999)
+
+#x = "Liu"
+#y = "Zi Xuan"
+
+#x , y = "Liu", "Zi Xuan"
+
+#print("My name is : " + x.capitalize() +" "+ y)
+
+#a = 14
+#print("I am "+ str(a) + " " + "years old" )
+
+#x = 3
+#print("He is "+ str(x)+" years old") 
+
+#name = input("What is your name?: ")
+#print("Hello "+name.capitalize() +"!")
+
+#height = input("How tall are you?  (In Meters): ")
+
+#print("Vincent is " + height +"m tall" )
+#age = int(input("How old are you?: "))
+
+#print("I see. Vincent is "+ str(age) + " years old. ")
+
+#pi = -3.14 
+#x =1
+#y = 2 
+#z = 3
+#print(round(pi))
+#print(math.ceil(pi))
+#print(math.floor(pi))
+#print(abs(pi))
+#print(pow(pi,2))
+#print(math.sqrt(pi))
+#print(max(pi, x, y ,z))
+#print(min(pi, x ,z ,y))
+
+##name = "Vincent Zhong "
+#first_name = name[0:8]
+#print(first_name)
+
+#last_name = name[::3]
+#print(last_name )
+#reversed_name  = name[::-1]
+#print(reversed_name)
+
+#website1 = "http://google.com"
+
+#slice = slice(7,-4)
+#print(website1[slice].capitalize())
+
+#website2 = "http://facebook.com"
+
+#print(website2[slice].capitalize())
+
+#age = int(input("How old are you?: "))
+
+#if age == 100: 
+  #print("Wow you're a century old!")
+
+#elif age >= 18: 
+  #print("You are an adult!!!!")
+#elif age < 0:
+  #print("You have'nt been born yet..?!")
+#else:
+    #print("You are a child, go back to sleep. You have school tommrow!!")
+
+
+
+#temp = int(input("What is the #temperature outside? : "))
+
+#if not(temp >= 0 and temp <= 30) : 
+  #print("The temperature is good today")
+  #print("Go outside!!")
+#elif not(temp < 0 or temp > 30) : 
+  #print("The temperature is bad today.")
+ # print("Stay home.")
+
+
+
+#a = ""
+
+#while len(a) == 0:
+ # a = input("Please enter your name: ")
+#
+#print("Hello " + a)
+
+#or 
+
+#name = None 
+
+#while not name: 
+#  name = input("Please enter your #username: ")
+#print("Hello " + name )
+
+#for i in range(10+1):
+  #print(i+1)
+
+#for i in range(50,100+1,10):
+  #print(i)
+
+#for i in "Asian Dude":
+ # print(i)
+
+#import time 
+#for seconds in range(10,0,-1):
+  #print(seconds)
+ # time.sleep(1)
+#print("HELLO")
+
+
+#rows = int(input("How many rows : "))
+#columns = int(input("How many rows : "))
+#symbol = input("Enter a symbol to use:")
+
+              
+#for i in range(rows):
+  #for j in range(columns):
+ #    print(symbol,end="")
+#  print()
+
+#while True: 
+  #name = input("Enter your name: ")
+  #if name !="":
+    #break 
+
+#phone_number = "929-353-8298"
+#for i in phone_number: 
+ # if i == "-":
+  #  continue
+  #print(i, end="")
+
+#for i in range(1,21):
+  #if i == 13:
+  #  pass
+  #else:
+    #print (i)
+
+food = ["rice","ham","egg","oil"]
+print(food[0])
